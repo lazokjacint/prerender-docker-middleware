@@ -36,6 +36,12 @@ map $http_user_agent $prerender_ua {
     "~*xing-contenttabreceiver"                 1;
     "~*chrome-lighthouse"                       1;
     "~*telegrambot"                             1;
+    "~*Perplexity"                              1;
+    "~*OAI-SearchBot"                           1;
+    "~*ChatGPT"                                 1;
+    "~*GPTBot"                                  1;
+    "~*ClaudeBot"                               1;
+    "~*Amazonbot"                               1;
 }
 
 map $args $prerender_args {
